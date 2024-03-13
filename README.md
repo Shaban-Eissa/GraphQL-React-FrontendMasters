@@ -23,7 +23,7 @@ A Fullstack built with React, GraphQL.
 ## Demo
 
 <img src="https://github.com/Shaban-Eissa/GraphQL-React-FrontendMasters/assets/49924090/aad0bbf2-ef5e-4710-bffd-d3ad3fb59c6b" width="900" height="450" />
-
+<img src="https://github.com/Shaban-Eissa/GraphQL-React-FrontendMasters/assets/49924090/618feb07-da29-4dc4-a1c9-389c479dfc10" width="900" height="450" />
 
 ## Installation
 
