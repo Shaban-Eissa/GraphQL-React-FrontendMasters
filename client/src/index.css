@@ -1,0 +1,184 @@
+@import 'flexboxgrid';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --bgColor: #EFEFEF;
+  --primaryColor: #3454D1;
+  --secondaryColor: #34D1BF;
+  --textColor: #070707;
+  --errorColor: #D1345B;
+  --lightTextColor: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bgColor);
+  font-family: "Rubik", sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+html {
+  font-size: calc(0.7em + 1vw);
+  color: var(--textColor);
+}
+
+.page {
+  padding: 3em 6em;
+}
+
+.row {
+  margin: 0;
+}
+
+.row-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.row-pets {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+header {
+  height: 65px;
+  width: 100vw;
+  background: var(--primaryColor);
+  display: flex;
+  align-items: center;
+}
+
+.link,
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.full-page-loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, .8);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-page {
+  height: 100vh;
+  width: 100vw;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.form-box {
+  background: white;
+  padding: 1.5em;
+  border-radius: 3px;
+}
+
+.box {
+  background: white;
+  padding: 1.5em;
+  border-radius: 12px;
+  border: 1px solid lightgrey;
+}
+
+.input {
+  padding: .5em;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  height: 1.6rem;
+  font-size: .7rem;
+  width: 100%;
+  margin: 1em 0 2em;
+}
+
+.input:focus {
+  outline: none;
+}
+
+button,
+.button {
+  outline: none;
+  border: none;
+  color: var(--lightTextColor);
+  font-size: .8rem;
+  text-transform: uppercase;
+  padding: .5rem;
+  background: var(--primaryColor);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+button.error,
+.button.error {
+  background: var(--errorColor);
+  border-radius: 12px;
+  margin-right: 12px;
+}
+
+.col {
+  padding-top: .5rem;
+  padding-bottom: .5rem
+}
+
+figure {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+figure {
+  overflow: hidden;
+}
+
+figure img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+.pet-name {
+  text-align: center;
+}
+
+.pet-type {
+  text-align: center;
+  font-size: .8rem;
+  color: grey;
+}
+
+.pet-delete {
+  text-transform: capitalize;
+  margin-top: 15px;
+  background-color: #D1345B;
+}
+
+.pet-container {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.new-pet {
+  overflow: hidden;
+}

@@ -1,0 +1,32 @@
+{
+  "user": {
+    "id": "jBWMVGjm50l6LGwepDoty",
+    "username": "frontendmaster"
+  },
+  "pet": [
+    {
+      "id": "1",
+      "name": "Buddy",
+      "type": "DOG",
+      "img": "https://images.unsplash.com/photo-1568572933382-0d9b3c4a7e6f"
+    },
+    {
+      "id": "4",
+      "name": "Whiskers",
+      "type": "CAT",
+      "img": "https://images.unsplash.com/photo-1568572933382-0d9b3c4a7e6f"
+    },
+    {
+      "id": "5",
+      "name": "Fluffy",
+      "type": "DOG",
+      "img": "https://images.unsplash.com/photo-1568572933382-0d9b3c4a7e6f"
+    },
+    {
+      "id": "JNPauBPlH1YTLMXxEbXeP",
+      "createdAt": 1710367737441,
+      "name": "Luna",
+      "type": "CAT"
+    }
+  ]
+}
