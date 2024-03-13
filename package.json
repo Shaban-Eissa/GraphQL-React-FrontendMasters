@@ -30,11 +30,12 @@
     "app": "parcel client/index.html --out-dir client/dist"
   },
   "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-react": "^7.23.3",
     "@playlyfe/gql": "^2.6.2",
     "babel-core": "^6.26.3",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
     "jest": "^24.9.0",
     "parcel": "1.12.3"
   }

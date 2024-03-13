@@ -5,12 +5,6 @@
   },
   "pet": [
     {
-      "id": "1",
-      "name": "Buddy",
-      "type": "DOG",
-      "img": "https://images.unsplash.com/photo-1568572933382-0d9b3c4a7e6f"
-    },
-    {
       "id": "4",
       "name": "Whiskers",
       "type": "CAT",
